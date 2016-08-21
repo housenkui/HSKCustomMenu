@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor =[UIColor greenColor];
     
     self.navigationController.navigationBar.translucent  =NO;
     self.navigationItem.leftBarButtonItem  =[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"schoolListItem"] style:UIBarButtonItemStylePlain target:self action:@selector(showMenuList:)];
