@@ -13,6 +13,7 @@
 		F573541A1D69668300EA004F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57354181D69668300EA004F /* Main.storyboard */; };
 		F573541C1D69668400EA004F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F573541B1D69668400EA004F /* Assets.xcassets */; };
 		F573541F1D69668500EA004F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F573541D1D69668500EA004F /* LaunchScreen.storyboard */; };
+		F57354281D6967A600EA004F /* HSKCustomMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F57354271D6967A600EA004F /* HSKCustomMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F573541B1D69668400EA004F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F573541E1D69668500EA004F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F57354201D69668500EA004F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57354261D6967A600EA004F /* HSKCustomMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSKCustomMenu.h; sourceTree = "<group>"; };
+		F57354271D6967A600EA004F /* HSKCustomMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSKCustomMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		F573540E1D69668000EA004F /* HSKCustomMenu */ = {
 			isa = PBXGroup;
 			children = (
+				F57354261D6967A600EA004F /* HSKCustomMenu.h */,
+				F57354271D6967A600EA004F /* HSKCustomMenu.m */,
 				F57354121D69668000EA004F /* AppDelegate.h */,
 				F57354131D69668000EA004F /* AppDelegate.m */,
 				F57354151D69668300EA004F /* ViewController.h */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57354281D6967A600EA004F /* HSKCustomMenu.m in Sources */,
 				F57354171D69668300EA004F /* ViewController.m in Sources */,
 				F57354141D69668000EA004F /* AppDelegate.m in Sources */,
 				F57354111D69668000EA004F /* main.m in Sources */,
